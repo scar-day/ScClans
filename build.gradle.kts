@@ -24,8 +24,3 @@ allprojects {
         implementation("org.jetbrains:annotations:24.0.0")
     }
 }
-
-tasks.shadowJar {
-    archiveBaseName.set(rootProject.name)
-    archiveClassifier.set("")
-}

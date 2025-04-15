@@ -1,14 +1,12 @@
 package dev.scarday.scclans.api.data;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
 import java.util.UUID;
 
-@Getter
-@Setter
+@Data
 public class ClanPlayersData {
-    UUID uuid;
+    UUID playerUUID;
 
     int kills;
     int deaths;
